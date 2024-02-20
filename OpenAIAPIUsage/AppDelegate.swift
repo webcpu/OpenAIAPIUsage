@@ -39,7 +39,7 @@ extension AppDelegate {
         let statusBarMenu = NSMenu(title: "Menu")
         setupWebsiteItem(in: statusBarMenu)
         statusBarMenu.addItem(.separator())
-        setupTokenDisplay(in: statusBarMenu)
+        //setupTokenDisplay(in: statusBarMenu)
         setupTokenActions(in: statusBarMenu)
         statusBarMenu.addItem(.separator())
         setupQuitItem(in: statusBarMenu)
@@ -84,12 +84,14 @@ extension AppDelegate {
     }
     
     private func createTokenDisplayView() -> NSView {
-        let customView = NSView(frame: NSRect(x: 0, y: 0, width: 340, height: 20))
-        let label = NSTextField(labelWithString: "Bearer Token")
+        let customView = NSView(frame: NSRect(x: 0, y: 0, width: 350, height: 20))
+        let label = NSTextField(labelWithString: "Bearer Token: ")
         label.frame = NSRect(x: 12, y: 0, width: 100, height: 20)
         
-        textField = NSTextField(frame: NSRect(x: 105, y: 0, width: 230, height: 20))
+        textField = NSTextField(frame: NSRect(x: 100, y: 0, width: 240, height: 20))
         textField.isEditable = false
+        textField.isSelectable = false
+        
         textField.stringValue = getBearerToken()
         
         customView.addSubview(label)
