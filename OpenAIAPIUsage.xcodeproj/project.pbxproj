@@ -8,13 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		EC16FD072B8497A300BDA8BC /* OpenAIAPIUsageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC16FD062B8497A300BDA8BC /* OpenAIAPIUsageApp.swift */; };
-		EC16FD092B8497A300BDA8BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC16FD082B8497A300BDA8BC /* ContentView.swift */; };
-		EC16FD0B2B8497A300BDA8BC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC16FD0A2B8497A300BDA8BC /* Item.swift */; };
 		EC16FD0D2B8497A400BDA8BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC16FD0C2B8497A400BDA8BC /* Assets.xcassets */; };
 		EC16FD102B8497A400BDA8BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC16FD0F2B8497A400BDA8BC /* Preview Assets.xcassets */; };
 		EC16FD1B2B8497A500BDA8BC /* OpenAIAPIUsageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC16FD1A2B8497A500BDA8BC /* OpenAIAPIUsageTests.swift */; };
 		EC16FD252B8497A500BDA8BC /* OpenAIAPIUsageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC16FD242B8497A500BDA8BC /* OpenAIAPIUsageUITests.swift */; };
 		EC16FD272B8497A500BDA8BC /* OpenAIAPIUsageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC16FD262B8497A500BDA8BC /* OpenAIAPIUsageUITestsLaunchTests.swift */; };
+		EC16FD342B8499B600BDA8BC /* Usage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC16FD332B8499B600BDA8BC /* Usage.swift */; };
+		EC16FD362B8499D400BDA8BC /* WatchDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC16FD352B8499D400BDA8BC /* WatchDog.swift */; };
+		EC16FD382B849A0700BDA8BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC16FD372B849A0700BDA8BC /* AppDelegate.swift */; };
+		EC16FD3A2B849A8900BDA8BC /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC16FD392B849A8900BDA8BC /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +39,6 @@
 /* Begin PBXFileReference section */
 		EC16FD032B8497A300BDA8BC /* OpenAIAPIUsage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenAIAPIUsage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC16FD062B8497A300BDA8BC /* OpenAIAPIUsageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIAPIUsageApp.swift; sourceTree = "<group>"; };
-		EC16FD082B8497A300BDA8BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EC16FD0A2B8497A300BDA8BC /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		EC16FD0C2B8497A400BDA8BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC16FD0F2B8497A400BDA8BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC16FD112B8497A400BDA8BC /* OpenAIAPIUsage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenAIAPIUsage.entitlements; sourceTree = "<group>"; };
@@ -47,6 +47,10 @@
 		EC16FD202B8497A500BDA8BC /* OpenAIAPIUsageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenAIAPIUsageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC16FD242B8497A500BDA8BC /* OpenAIAPIUsageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIAPIUsageUITests.swift; sourceTree = "<group>"; };
 		EC16FD262B8497A500BDA8BC /* OpenAIAPIUsageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIAPIUsageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC16FD332B8499B600BDA8BC /* Usage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usage.swift; sourceTree = "<group>"; };
+		EC16FD352B8499D400BDA8BC /* WatchDog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchDog.swift; sourceTree = "<group>"; };
+		EC16FD372B849A0700BDA8BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC16FD392B849A8900BDA8BC /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				EC16FD062B8497A300BDA8BC /* OpenAIAPIUsageApp.swift */,
-				EC16FD082B8497A300BDA8BC /* ContentView.swift */,
-				EC16FD0A2B8497A300BDA8BC /* Item.swift */,
+				EC16FD372B849A0700BDA8BC /* AppDelegate.swift */,
+				EC16FD352B8499D400BDA8BC /* WatchDog.swift */,
+				EC16FD392B849A8900BDA8BC /* API.swift */,
+				EC16FD332B8499B600BDA8BC /* Usage.swift */,
 				EC16FD0C2B8497A400BDA8BC /* Assets.xcassets */,
 				EC16FD112B8497A400BDA8BC /* OpenAIAPIUsage.entitlements */,
 				EC16FD0E2B8497A400BDA8BC /* Preview Content */,
@@ -262,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC16FD092B8497A300BDA8BC /* ContentView.swift in Sources */,
-				EC16FD0B2B8497A300BDA8BC /* Item.swift in Sources */,
+				EC16FD382B849A0700BDA8BC /* AppDelegate.swift in Sources */,
 				EC16FD072B8497A300BDA8BC /* OpenAIAPIUsageApp.swift in Sources */,
+				EC16FD342B8499B600BDA8BC /* Usage.swift in Sources */,
+				EC16FD362B8499D400BDA8BC /* WatchDog.swift in Sources */,
+				EC16FD3A2B849A8900BDA8BC /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
