@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC16FD072B8497A300BDA8BC /* OpenAIAPIUsageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC16FD062B8497A300BDA8BC /* OpenAIAPIUsageApp.swift */; };
+		EC16FD092B8497A300BDA8BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC16FD082B8497A300BDA8BC /* ContentView.swift */; };
+		EC16FD0B2B8497A300BDA8BC /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC16FD0A2B8497A300BDA8BC /* Item.swift */; };
+		EC16FD0D2B8497A400BDA8BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC16FD0C2B8497A400BDA8BC /* Assets.xcassets */; };
+		EC16FD102B8497A400BDA8BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC16FD0F2B8497A400BDA8BC /* Preview Assets.xcassets */; };
+		EC16FD1B2B8497A500BDA8BC /* OpenAIAPIUsageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC16FD1A2B8497A500BDA8BC /* OpenAIAPIUsageTests.swift */; };
+		EC16FD252B8497A500BDA8BC /* OpenAIAPIUsageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC16FD242B8497A500BDA8BC /* OpenAIAPIUsageUITests.swift */; };
+		EC16FD272B8497A500BDA8BC /* OpenAIAPIUsageUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC16FD262B8497A500BDA8BC /* OpenAIAPIUsageUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC16FD172B8497A400BDA8BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC16FCFB2B8497A300BDA8BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC16FD022B8497A300BDA8BC;
+			remoteInfo = OpenAIAPIUsage;
+		};
+		EC16FD212B8497A500BDA8BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC16FCFB2B8497A300BDA8BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC16FD022B8497A300BDA8BC;
+			remoteInfo = OpenAIAPIUsage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC16FD032B8497A300BDA8BC /* OpenAIAPIUsage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenAIAPIUsage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC16FD062B8497A300BDA8BC /* OpenAIAPIUsageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIAPIUsageApp.swift; sourceTree = "<group>"; };
+		EC16FD082B8497A300BDA8BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EC16FD0A2B8497A300BDA8BC /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		EC16FD0C2B8497A400BDA8BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC16FD0F2B8497A400BDA8BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC16FD112B8497A400BDA8BC /* OpenAIAPIUsage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenAIAPIUsage.entitlements; sourceTree = "<group>"; };
+		EC16FD162B8497A400BDA8BC /* OpenAIAPIUsageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenAIAPIUsageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC16FD1A2B8497A500BDA8BC /* OpenAIAPIUsageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIAPIUsageTests.swift; sourceTree = "<group>"; };
+		EC16FD202B8497A500BDA8BC /* OpenAIAPIUsageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenAIAPIUsageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC16FD242B8497A500BDA8BC /* OpenAIAPIUsageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIAPIUsageUITests.swift; sourceTree = "<group>"; };
+		EC16FD262B8497A500BDA8BC /* OpenAIAPIUsageUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIAPIUsageUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC16FD002B8497A300BDA8BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC16FD132B8497A400BDA8BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC16FD1D2B8497A500BDA8BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC16FCFA2B8497A300BDA8BC = {
+			isa = PBXGroup;
+			children = (
+				EC16FD052B8497A300BDA8BC /* OpenAIAPIUsage */,
+				EC16FD192B8497A500BDA8BC /* OpenAIAPIUsageTests */,
+				EC16FD232B8497A500BDA8BC /* OpenAIAPIUsageUITests */,
+				EC16FD042B8497A300BDA8BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC16FD042B8497A300BDA8BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC16FD032B8497A300BDA8BC /* OpenAIAPIUsage.app */,
+				EC16FD162B8497A400BDA8BC /* OpenAIAPIUsageTests.xctest */,
+				EC16FD202B8497A500BDA8BC /* OpenAIAPIUsageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC16FD052B8497A300BDA8BC /* OpenAIAPIUsage */ = {
+			isa = PBXGroup;
+			children = (
+				EC16FD062B8497A300BDA8BC /* OpenAIAPIUsageApp.swift */,
+				EC16FD082B8497A300BDA8BC /* ContentView.swift */,
+				EC16FD0A2B8497A300BDA8BC /* Item.swift */,
+				EC16FD0C2B8497A400BDA8BC /* Assets.xcassets */,
+				EC16FD112B8497A400BDA8BC /* OpenAIAPIUsage.entitlements */,
+				EC16FD0E2B8497A400BDA8BC /* Preview Content */,
+			);
+			path = OpenAIAPIUsage;
+			sourceTree = "<group>";
+		};
+		EC16FD0E2B8497A400BDA8BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC16FD0F2B8497A400BDA8BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC16FD192B8497A500BDA8BC /* OpenAIAPIUsageTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC16FD1A2B8497A500BDA8BC /* OpenAIAPIUsageTests.swift */,
+			);
+			path = OpenAIAPIUsageTests;
+			sourceTree = "<group>";
+		};
+		EC16FD232B8497A500BDA8BC /* OpenAIAPIUsageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC16FD242B8497A500BDA8BC /* OpenAIAPIUsageUITests.swift */,
+				EC16FD262B8497A500BDA8BC /* OpenAIAPIUsageUITestsLaunchTests.swift */,
+			);
+			path = OpenAIAPIUsageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC16FD022B8497A300BDA8BC /* OpenAIAPIUsage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC16FD2A2B8497A500BDA8BC /* Build configuration list for PBXNativeTarget "OpenAIAPIUsage" */;
+			buildPhases = (
+				EC16FCFF2B8497A300BDA8BC /* Sources */,
+				EC16FD002B8497A300BDA8BC /* Frameworks */,
+				EC16FD012B8497A300BDA8BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OpenAIAPIUsage;
+			productName = OpenAIAPIUsage;
+			productReference = EC16FD032B8497A300BDA8BC /* OpenAIAPIUsage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC16FD152B8497A400BDA8BC /* OpenAIAPIUsageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC16FD2D2B8497A500BDA8BC /* Build configuration list for PBXNativeTarget "OpenAIAPIUsageTests" */;
+			buildPhases = (
+				EC16FD122B8497A400BDA8BC /* Sources */,
+				EC16FD132B8497A400BDA8BC /* Frameworks */,
+				EC16FD142B8497A400BDA8BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC16FD182B8497A400BDA8BC /* PBXTargetDependency */,
+			);
+			name = OpenAIAPIUsageTests;
+			productName = OpenAIAPIUsageTests;
+			productReference = EC16FD162B8497A400BDA8BC /* OpenAIAPIUsageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC16FD1F2B8497A500BDA8BC /* OpenAIAPIUsageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC16FD302B8497A500BDA8BC /* Build configuration list for PBXNativeTarget "OpenAIAPIUsageUITests" */;
+			buildPhases = (
+				EC16FD1C2B8497A500BDA8BC /* Sources */,
+				EC16FD1D2B8497A500BDA8BC /* Frameworks */,
+				EC16FD1E2B8497A500BDA8BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC16FD222B8497A500BDA8BC /* PBXTargetDependency */,
+			);
+			name = OpenAIAPIUsageUITests;
+			productName = OpenAIAPIUsageUITests;
+			productReference = EC16FD202B8497A500BDA8BC /* OpenAIAPIUsageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC16FCFB2B8497A300BDA8BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					EC16FD022B8497A300BDA8BC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					EC16FD152B8497A400BDA8BC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EC16FD022B8497A300BDA8BC;
+					};
+					EC16FD1F2B8497A500BDA8BC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = EC16FD022B8497A300BDA8BC;
+					};
+				};
+			};
+			buildConfigurationList = EC16FCFE2B8497A300BDA8BC /* Build configuration list for PBXProject "OpenAIAPIUsage" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC16FCFA2B8497A300BDA8BC;
+			productRefGroup = EC16FD042B8497A300BDA8BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC16FD022B8497A300BDA8BC /* OpenAIAPIUsage */,
+				EC16FD152B8497A400BDA8BC /* OpenAIAPIUsageTests */,
+				EC16FD1F2B8497A500BDA8BC /* OpenAIAPIUsageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC16FD012B8497A300BDA8BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC16FD102B8497A400BDA8BC /* Preview Assets.xcassets in Resources */,
+				EC16FD0D2B8497A400BDA8BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC16FD142B8497A400BDA8BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC16FD1E2B8497A500BDA8BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC16FCFF2B8497A300BDA8BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC16FD092B8497A300BDA8BC /* ContentView.swift in Sources */,
+				EC16FD0B2B8497A300BDA8BC /* Item.swift in Sources */,
+				EC16FD072B8497A300BDA8BC /* OpenAIAPIUsageApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC16FD122B8497A400BDA8BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC16FD1B2B8497A500BDA8BC /* OpenAIAPIUsageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC16FD1C2B8497A500BDA8BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC16FD252B8497A500BDA8BC /* OpenAIAPIUsageUITests.swift in Sources */,
+				EC16FD272B8497A500BDA8BC /* OpenAIAPIUsageUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC16FD182B8497A400BDA8BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC16FD022B8497A300BDA8BC /* OpenAIAPIUsage */;
+			targetProxy = EC16FD172B8497A400BDA8BC /* PBXContainerItemProxy */;
+		};
+		EC16FD222B8497A500BDA8BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC16FD022B8497A300BDA8BC /* OpenAIAPIUsage */;
+			targetProxy = EC16FD212B8497A500BDA8BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC16FD282B8497A500BDA8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC16FD292B8497A500BDA8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		EC16FD2B2B8497A500BDA8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OpenAIAPIUsage/OpenAIAPIUsage.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenAIAPIUsage/Preview Content\"";
+				DEVELOPMENT_TEAM = NA5BE2D52P;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uw.OpenAIAPIUsage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EC16FD2C2B8497A500BDA8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OpenAIAPIUsage/OpenAIAPIUsage.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OpenAIAPIUsage/Preview Content\"";
+				DEVELOPMENT_TEAM = NA5BE2D52P;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uw.OpenAIAPIUsage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EC16FD2E2B8497A500BDA8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NA5BE2D52P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uw.OpenAIAPIUsageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenAIAPIUsage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenAIAPIUsage";
+			};
+			name = Debug;
+		};
+		EC16FD2F2B8497A500BDA8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NA5BE2D52P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uw.OpenAIAPIUsageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OpenAIAPIUsage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OpenAIAPIUsage";
+			};
+			name = Release;
+		};
+		EC16FD312B8497A500BDA8BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NA5BE2D52P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uw.OpenAIAPIUsageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = OpenAIAPIUsage;
+			};
+			name = Debug;
+		};
+		EC16FD322B8497A500BDA8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NA5BE2D52P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uw.OpenAIAPIUsageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = OpenAIAPIUsage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC16FCFE2B8497A300BDA8BC /* Build configuration list for PBXProject "OpenAIAPIUsage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC16FD282B8497A500BDA8BC /* Debug */,
+				EC16FD292B8497A500BDA8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC16FD2A2B8497A500BDA8BC /* Build configuration list for PBXNativeTarget "OpenAIAPIUsage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC16FD2B2B8497A500BDA8BC /* Debug */,
+				EC16FD2C2B8497A500BDA8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC16FD2D2B8497A500BDA8BC /* Build configuration list for PBXNativeTarget "OpenAIAPIUsageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC16FD2E2B8497A500BDA8BC /* Debug */,
+				EC16FD2F2B8497A500BDA8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC16FD302B8497A500BDA8BC /* Build configuration list for PBXNativeTarget "OpenAIAPIUsageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC16FD312B8497A500BDA8BC /* Debug */,
+				EC16FD322B8497A500BDA8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC16FCFB2B8497A300BDA8BC /* Project object */;
+}
