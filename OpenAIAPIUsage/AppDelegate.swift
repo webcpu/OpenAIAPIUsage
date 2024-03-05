@@ -134,7 +134,6 @@ extension AppDelegate {
     @objc private func pasteBearerToken(_ sender: AnyObject) {
         if let token = fetchTokenFromPasteboard() {
             let value = token.trimmingCharacters(in: .whitespacesAndNewlines)
-            textField.stringValue = value
             setBearerToken(value)
             update()
         }
