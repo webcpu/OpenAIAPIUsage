@@ -15,7 +15,7 @@ Welcome to OpenAI API Usage, a sleek and convenient macOS menu bar application d
 - <img width="214" alt="image" src="https://github.com/webcpu/OpenAIAPIUsage/assets/4646838/6b9b68ca-d4e5-4539-88e5-9b0bb3bc2dd3">
 
 
-# Obtaining a OpenAI Dashboard API Bearer Token in Safari
+# Obtaining an OpenAI Dashboard API Bearer Token in Safari
 
 ## Prerequisites
 
@@ -72,3 +72,63 @@ With the bearer token copied, you can use it in authenticated requests to the se
 - **Security**: Treat bearer tokens as sensitive information, as they grant access to the application on behalf of the authenticated user. Never expose them in client-side code or share them unnecessarily.
 - **Expiration**: Bearer tokens often expire after a certain period. If your token becomes invalid, you'll need to repeat these steps to obtain a new one.
 - **Environment Variability**: The exact steps and the layout of the Web Inspector may vary slightly between different versions of Safari and depending on the specific web application you are working with.
+
+
+# Obtaining an Anthropic Organization ID and Cookie in Safari
+
+## Prerequisites
+
+- Safari browser installed on your Mac.
+
+## Steps to Retrieve Orgnaization ID
+- Log in to access https://console.anthropic.com/settings/organization
+
+- Click the pasteboard icon to copy the Organization ID.
+
+- Click 'Paste Organization ID' menu item to paste the Cookie to the app.
+
+## Steps to Retrieve a Cookie
+
+### 1. Open Developer Tools
+
+To start, log in to access https://console.anthropic.com/settings/cost. Then, open Safari's Developer Tools. If the Developer menu is not already visible in Safari, enable it by following these steps:
+
+- Go to Safari > Preferences > Advanced.
+- Check the box at the bottom that says "Show Develop menu in menu bar."
+
+Now you can access the Developer Tools by:
+
+- Clicking on the "Develop" menu in the menu bar and selecting "Show Web Inspector."
+- Using the keyboard shortcut `Option+Cmd+I`.
+
+### 2. Access the Network Tab
+
+Within the Web Inspector, click on the "Network" tab. This tab records all the network requests made by the browser. If the list is empty, refresh the page to start capturing the network activity while the Web Inspector is open.
+
+### 3. Trigger a Network Request
+
+Bearer tokens are usually included in specific requests, such as those made during login or when accessing secured content. Execute an action that would trigger such a request to ensure the bearer token is sent.
+
+### 4. Identify the Request Containing the Cookie
+
+Look through the network requests listed in the "Network" tab to find 'usage_cost' that includes an Cookie header with a cookie. If you can't see it, reload the page.
+
+
+### 5. Extract the Cookie
+
+After locating the request with the cookie, click on it to open the request details. Navigate to the "Headers" section and look for the "Cookie" header under the "Request Headers" subsection.
+
+
+```Cookie: activitySessionId=ca1a99f1-b46a-4ba1-9012-23...```
+
+
+The string after "Cookie" is your token. You can select and copy this cookie for your use.
+
+## Using the Cookie
+
+With the cookie copied, you can click 'Paste Cookie' to paste the cookie to the app.
+
+## Important Considerations
+
+- **Security**: Treat cookie as sensitive information, as they grant access to the application on behalf of the authenticated user. Never expose them in client-side code or share them unnecessarily.
+- **Expiration**: Cookie often expires after a certain period. If your cookie becomes invalid, you'll need to repeat these steps to obtain a new one.
